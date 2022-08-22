@@ -1,0 +1,7 @@
+.body {
+    width: 100vw;
+    height: 100vw;
+    background-image: url("../public/assets/crew/background-crew-desktop.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
