@@ -17,16 +17,15 @@
 }
 
 .navLinkContainer {
+    background-color: rgba(128, 128, 128, 0.2);
     display: flex;
     justify-content: flex-start;
     align-items: center;
     list-style: none;
-    width: 38%;
-    background-color: rgba(182, 179, 179, 0.2);
+    width: 45vw;
+    backdrop-filter: blur(20px);
     height: 6vw;
-    padding: 0% 5%;
-    
-    
+    padding: 0% 2%;
 }
 
 .link {
@@ -35,7 +34,12 @@
     text-decoration: none;
     margin: 0px 20px;
     font-size: 20px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family:  Courier, monospace;
+}
+
+.link:hover {
+    border-bottom: 1px solid white;
+    transform-origin: bottom right;
 }
 
 .linkRoutes {

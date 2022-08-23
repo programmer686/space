@@ -1,11 +1,11 @@
 .body {
     width: 100vw;
-    height: fit-content;
+    height: 100vh;
     background-image: url("../public/assets/destination/background-destination-desktop.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
-    flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: flex-end;
 }
+

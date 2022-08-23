@@ -1,7 +1,12 @@
 .body {
     width: 100vw;
-    height: 100vw;
+    height: 100vh;
     background-image: url("../public/assets/crew/background-crew-desktop.jpg");
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    overflow-x: hidden;
 }
+
