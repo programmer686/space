@@ -4,6 +4,8 @@
   background-size: cover;
   height: 100vh;
   overflow-y: hidden;
+  overflow-x: hidden;
+  border: 1px solid blue;
 }
 
 
@@ -67,4 +69,65 @@
   color: black;
   letter-spacing: 2px;
   font-size: 3rem;
+  border: 1px solid pink;
+}
+
+@media (max-width: 480px) {
+  .home {
+    background-image: url("../public/assets/home/background-home-mobile.jpg");
+    width: 480px;
+    
+  }
+
+  .textContainer {
+    width: 80%;
+    text-align: center;
+    line-height: normal;
+  }
+
+  .textHeader, .textLogo, .textInfo, .btn {
+    font-size: 20px;
+    margin: 0;
+    max-width: 100%;
+
+  }
+  .textHeader {
+    width: 80vw;
+  }
+
+  .textLogo {
+    font-size: 7rem;
+  }
+
+  .textInfo {
+    margin-bottom: 50px;
+    font-size: 1rem;
+  }
+
+  .body {
+    width: fit-content;
+    margin: 0;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: flex-end;
+
+  }
+
+.bodyContainer {
+  width: fit-content;
+  flex-direction: column;
+  height: fit-content;
+  margin-bottom: 0;
+  height: 90vh;
+
+
+}
+
+.btn {
+  width: 250px;
+  height: 250px;
+  padding: 0;
+  margin-top: 100px;
+}
+
 }

@@ -24,7 +24,7 @@
     list-style: none;
     width: 45vw;
     backdrop-filter: blur(20px);
-    height: 6vw;
+    height: 5vw;
     padding: 0% 2%;
 }
 
@@ -44,4 +44,8 @@
 
 .linkRoutes {
     text-decoration: none;
+}
+
+@media (max-width: 480px) {
+   .navbar {width: 10%}
 }
