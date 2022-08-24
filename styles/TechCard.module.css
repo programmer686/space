@@ -1,0 +1,60 @@
+.infoBody, .name, .terminology, .description {
+    color: white;
+}
+
+.techContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 100px;
+    width: 100vw;
+}
+
+.btnAndInfoContainer {
+    max-width: 45vw;
+    display: flex;
+    align-items: center;
+    margin-left: 8vw;
+}
+
+.btnContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.btns {
+    background: none;
+    border-radius: 50%;
+    border: 1px solid white;
+    font-size: 3rem;
+    color: white;
+    width: 80px;
+    height: 80px;
+    margin: 20px 0px;
+    font-weight: lighter;
+}
+
+.infoBody {
+    margin-left: 5vw;
+    max-width: 35vw;
+}
+
+.terminology {
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+
+.name {
+    font-weight: lighter;
+    margin-bottom: 20px;
+    font-size: 3.5rem;
+}
+.description {
+    line-height: 30px;
+    max-width: 25vw;
+}
+
+.image {
+    margin: 10px 0px;
+}
