@@ -56,6 +56,10 @@
     font-size: 1em;
 }
 
+.imageConatiner {
+    width: 60vh;
+}
+
 @media (max-width: 1500px) {
     .terminology {
         font-size: 1em;

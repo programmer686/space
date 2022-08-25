@@ -27,12 +27,16 @@ function TechCard(props) {
             <p className={styles.description}>{props.description}</p>
         </div>
         </div>
+        <div className={styles.imageConatiner}>
         <Image 
-        className={styles.image}
-        src={props.image}
-        alt=""
-        width=""
-        height= "" />
+            className={styles.moons}
+            src={props.image}
+            alt=""
+            width="100%"
+            height="100%"
+            layout='responsive'
+            />
+        </div>
     </div>
   )
 }

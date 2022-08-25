@@ -54,6 +54,11 @@
 }
 
 @media (max-width: 1500px) {
+
+    .infoCard {
+        width: 90vh;
+    }
+
     .crew {
         font-size: 1em;
         margin-bottom: 10px;
@@ -73,9 +78,9 @@
     }
 }
 
-.photo {
-    width: 60vh;
-    margin-right: 50px;
+.imageConatiner {
+    width: 70vh;
+    margin-right: 10vw;
 }
 
 .btnContainer {

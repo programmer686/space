@@ -19,13 +19,17 @@ function DestinationCard(props) {
         
         <div>
             <p className={styles.pick}><span className={styles.phase}>01</span> PICK YOUR DESTINATION</p>
+            <div className={styles.imageConatiner}>
             <Image 
             className={styles.moons}
             src={props.imageSrc}
             alt=""
-            width=""
-            height=""
+            width="100%"
+            height="100%"
+            layout='responsive'
             />
+            </div>
+            
         </div>
         
         <div className={styles.whereToBody}> 
