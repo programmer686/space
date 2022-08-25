@@ -7,6 +7,6 @@
     display: flex;
     justify-items: center;
     align-items: flex-end;
-    border: 1px solid blue;
+    padding-top: 3vh;
 }
 

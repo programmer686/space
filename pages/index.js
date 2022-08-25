@@ -11,8 +11,8 @@ export default function Home() {
         <p  className={styles.textHeader}>SO, YOU WANT TO TRAVEL TO</p>
         <p className={styles.textLogo}>SPACE</p>
         <p className={styles.textInfo}>
-          Let's face it; if you want to go to space, you might as well genuinely go to outer space
-          and not hover kind of on the edge of it. Well sit back, relax because we'll give you a 
+          Face it; if you want to go to space, you might as well genuinely go to outer space
+          and not hover kind of on the edge of it. Well sit back, relax because we will give you a 
           truly out of this world experience!
         </p>
       </div>

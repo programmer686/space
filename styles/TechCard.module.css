@@ -29,8 +29,8 @@
     border: 1px solid white;
     font-size: 3rem;
     color: white;
-    width: 70px;
-    height: 70px;
+    width: 100px;
+    height: 100px;
     margin: 20px 0px;
     font-weight: lighter;
 }
@@ -41,19 +41,38 @@
 }
 
 .terminology {
-    font-size: 100%;
+    font-size: 1.5em;
     margin-bottom: 10px;
 }
 
 .name {
     font-weight: lighter;
     margin-bottom: 20px;
-    font-size: 200%;
+    font-size: 4em;
     width: 100%;
 }
 .description {
     line-height: 30px;
-    font-size: 100%;
+    font-size: 1em;
+}
+
+@media (max-width: 1500px) {
+    .terminology {
+        font-size: 1em;
+    }
+    
+    .name {
+        font-size: 2em;
+    }
+
+    .description {
+        font-size: 1em;
+    }
+
+    .btns {
+        width: 70px;
+        height: 70px;
+    }
 }
 
 .image {

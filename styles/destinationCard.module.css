@@ -1,18 +1,17 @@
 .body {
-    width: 100%;
+    width: 100vw;
     height: fit-content;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 15px 0px;
-    border: 1px solid red;
+    margin: 10vh 0;
 }
 
 .whereToBody {
-    height: 100%;
-    width: 40%;
+    max-height: fit-content;
+    max-width:  40%;
+    padding: 20px;
     margin-right: 60px;
-    border: 1px solid green;
 }
 
 .pick,
@@ -67,8 +66,22 @@
     font-size: 2rem;
 }
 
+@media (max-width: 1500px) {
+    .pick {
+        font-size: 1em;
+    }
+
+    .location {
+        font-size: 4em;
+    }
+
+    .tourInfo {
+        font-size: 0.8em;
+    }
+}
+
 .moons {
-    width: 20vw;
+    width: 30vw;
     height: 70%;
     margin-left: 50px;
 }

@@ -1,5 +1,6 @@
 import React from 'react'
 import styles from "../styles/CrewCard.module.css"
+import Image from "next/image"
 function CrewCard(props) {
     function handleSwitch(name) {
         if (name === "COMMANDER") {
@@ -29,10 +30,12 @@ function CrewCard(props) {
                 <button onClick={() => handleSwitch("ENGINEER")}  className={styles.btns}></button>
             </div>
         </div>
-            <img 
+            <Image
             src={props.image}
             alt=""
             className={styles.photo}
+            width=""
+            height=""
             />
     </div>
   )

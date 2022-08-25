@@ -1,4 +1,5 @@
 import React from 'react'
+import Image from "next/image"
 import styles from "../styles/TechCard.module.css"
 function TechCard(props) {
     function hanldeSwitch(id) {
@@ -26,7 +27,12 @@ function TechCard(props) {
             <p className={styles.description}>{props.description}</p>
         </div>
         </div>
-        <img className={styles.image} src={props.image} alt="" />
+        <Image 
+        className={styles.image}
+        src={props.image}
+        alt=""
+        width=""
+        height= "" />
     </div>
   )
 }
