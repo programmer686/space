@@ -29,32 +29,34 @@
     border: 1px solid white;
     font-size: 3rem;
     color: white;
-    width: 80px;
-    height: 80px;
+    width: 70px;
+    height: 70px;
     margin: 20px 0px;
     font-weight: lighter;
 }
 
 .infoBody {
     margin-left: 5vw;
-    max-width: 35vw;
+    width: 100%;
 }
 
 .terminology {
-    font-size: 1rem;
+    font-size: 100%;
     margin-bottom: 10px;
 }
 
 .name {
     font-weight: lighter;
     margin-bottom: 20px;
-    font-size: 3.5rem;
+    font-size: 200%;
+    width: 100%;
 }
 .description {
     line-height: 30px;
-    max-width: 25vw;
+    font-size: 100%;
 }
 
 .image {
     margin: 10px 0px;
+    width: 30%;
 }

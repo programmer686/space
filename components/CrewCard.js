@@ -29,12 +29,11 @@ function CrewCard(props) {
                 <button onClick={() => handleSwitch("ENGINEER")}  className={styles.btns}></button>
             </div>
         </div>
-        <div>
             <img 
             src={props.image}
             alt=""
+            className={styles.photo}
             />
-        </div>
     </div>
   )
 }

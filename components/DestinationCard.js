@@ -18,7 +18,7 @@ function DestinationCard(props) {
     <div className={styles.body}>
         
         <div>
-            <p className={styles.pick}>01 PICK YOUR DESTINATION</p>
+            <p className={styles.pick}><span className={styles.phase}>01</span> PICK YOUR DESTINATION</p>
             <img 
             className={styles.moons}
             src={props.imageSrc}
