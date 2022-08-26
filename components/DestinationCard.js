@@ -17,7 +17,7 @@ function DestinationCard(props) {
   return (
     <div className={styles.body}>
         
-        <div>
+        <div className={styles.moonWhereToContainer}>
             <p className={styles.pick}><span className={styles.phase}>01</span> PICK YOUR DESTINATION</p>
             <div className={styles.imageConatiner}>
             <Image 
@@ -43,11 +43,11 @@ function DestinationCard(props) {
             <p className={styles.tourInfo}>{props.tourInfo}</p>
             <div className={styles.divider}></div>
             <div className={styles.etaInfo}>
-                <div>
+                <div className={styles.infoConatiners}>
                     <p className={styles.avgDistance}>AVG. DISTANCE</p>
                     <h1 className={styles.avgDistanceNum}>{props.distance}</h1>
                 </div>
-                <div>
+                <div className={styles.infoConatiners}>
                     <p className={styles.etaTime}>EST. TRAVEL TIME</p>
                     <h1 className={styles.etaTimeNum}>{props.travel}</h1>
                 </div>

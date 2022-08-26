@@ -47,5 +47,52 @@
 }
 
 @media (max-width: 480px) {
-   .navbar {width: 10%}
+    .navbar {
+        position: fixed;
+        height: 100vh;
+        justify-content: center;
+        align-items: flex-start;
+        padding: 0;
+    }
+
+    .logoAndBtn {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        z-index: 4;
+        padding: 30px;
+    }
+
+    .hamburderMenuContainer {
+        width: 50px;
+        height: 50px;
+        background: none;
+        border: none;
+        display: block;
+       }
+    
+    .hamburderBars {
+        width: 80%;
+        height: 3px;
+        background: white;
+        border-radius: 20px;
+        margin: 5px 0px;
+       }
+
+    .navLinkContainer {
+        text-align: center;
+        backdrop-filter: blur(18px);
+        width: 100vh;
+        height: 100vh;
+
+   }
+   .li {
+    font-size: 1.5rem;
+    width: fit-content;
+    margin-bottom: 20px;
+   }
+
+   
+
+   
 }

@@ -140,25 +140,33 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border: 1px solid red;
   }
 
   .bodyContainer {
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
     margin-bottom: 0;
+    height: 90vh;
   }
 
   .textContainer {
     width: 80vw;
     height: fit-content;
     margin-left: 0;
-    margin-bottom: 15%;
+    text-align: center;
+    align-items: center;
+  }
+
+  .textLogo {
+    font-size: 4rem;
+    height: fit-content;
+    margin-bottom: 0;
   }
 
   .textHeader, .texInfo{
     font-size: 1rem;
+    line-height: normal;
   }
 
   .textInfo {
@@ -167,5 +175,6 @@
 
   .btn {
     margin: 0;
+    margin-bottom: 30px;
   }
 }

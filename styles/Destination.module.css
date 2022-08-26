@@ -10,3 +10,10 @@
     padding-top: 3vh;
 }
 
+@media (max-width) {
+    .body {
+        background-image: url("../public/assets/destination/background-destination-mobile.jpg");
+        height: fit-content;
+    }
+}
+
