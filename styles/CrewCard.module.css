@@ -53,30 +53,6 @@
     margin-bottom: 50px;
 }
 
-@media (max-width: 1500px) {
-
-    .infoCard {
-        width: 90vh;
-    }
-
-    .crew {
-        font-size: 1em;
-        margin-bottom: 10px;
-    }
-
-    .title {
-        font-size: 1.5em;
-    }
-
-    .name {
-        font-size: 2em;
-        margin-bottom: 0;
-    }
-
-    .bio {
-        font-size: 1em;
-    }
-}
 
 .imageConatiner {
     width: 70vh;
@@ -100,4 +76,29 @@
 
 .btns:after {
     background-color: white;
+}
+
+@media (max-width: 1500px) {
+
+    .infoCard {
+        width: 80vh;
+    }
+
+    .crew {
+        font-size: 1em;
+        margin-bottom: 10px;
+    }
+
+    .title {
+        font-size: 1.5em;
+    }
+
+    .name {
+        font-size: 2em;
+        margin-bottom: 0;
+    }
+
+    .bio {
+        font-size: 1em;
+    }
 }

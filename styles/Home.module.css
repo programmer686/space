@@ -22,7 +22,7 @@
 .bodyContainer {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-end;
   width: 100vw;
   margin-bottom: 10vw;
 }
@@ -74,6 +74,7 @@
   font-size: 2rem;
   border: 1px solid pink;
   margin-right: 10vh;
+  margin-bottom: 20px;
 }
 
 @media (max-width: 1500px) {
@@ -83,7 +84,7 @@
   }
 
   .textContainer {
-    width: 60vw;
+    width: 50vw;
     height: 80vh;
     line-height: normal;
     padding: 0;
@@ -101,13 +102,14 @@
   
   .textInfo {
     font-size: 1em;
-    width: 50vw;
+    width: 35vw;
   } 
   
   .btn {
     font-size: 20px;
     margin: 0;
     margin-right: 10vh;
+    margin-bottom: 15vh;
 }
   
 
@@ -127,4 +129,43 @@
   margin-top: 100px;
 }
 
+}
+
+@media (max-width: 500px) {
+  .home {
+    background-image: url("../public/assets/home/background-home-mobile.jpg");
+  }
+
+  .body {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid red;
+  }
+
+  .bodyContainer {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0;
+  }
+
+  .textContainer {
+    width: 80vw;
+    height: fit-content;
+    margin-left: 0;
+    margin-bottom: 5vh;
+  }
+
+  .textHeader, .texInfo{
+    font-size: 1rem;
+  }
+
+  .textInfo {
+    width: 80vw;
+  }
+
+  .btn {
+    margin: 0;
+  }
 }
