@@ -12,7 +12,7 @@ function Technology() {
         name={item.name}
         description={item.description}
         image={item.image}
-        state={setSwitching}
+              state={setSwitching}
       />
     );
   });
