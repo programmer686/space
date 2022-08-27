@@ -9,7 +9,7 @@
 
 .whereToBody {
     max-height: fit-content;
-    max-width:  30%;
+    max-width:  20vh;
     padding: 20px;
     margin-right: 60px;
 }
@@ -47,7 +47,7 @@
 }
 
 .imageConatiner {
-    width: 50vh;
+    width: 60vh;
 }
 
 .divider {
@@ -90,6 +90,10 @@
     font-size: 120%;
 }
 
+
+.btns:hover {
+    border-bottom: 2px solid white;
+}
 @media (max-width: 1500px) {
 
     .body {
@@ -101,15 +105,16 @@
     }
 
     .location {
-        font-size: 4em;
+        font-size: 3.5em;
     }
 
     .tourInfo {
         font-size: 0.8em;
+        line-height: 25px;
     }
 
     .avgDistanceNum {
-        padding-right: 5vw;
+        padding-right: 3vw;
     }
 
     .whereToBody {
@@ -145,6 +150,7 @@
 
     .imageConatiner{
         width: 20vh;
+        z-index: 1;
     }
 
     .pick {

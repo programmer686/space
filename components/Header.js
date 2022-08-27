@@ -6,7 +6,23 @@ import Image from "next/image";
 import styles from "../styles/Header.module.css";
 export default function Header() {
     const [width, setWidth] = useState(0)
-    const [opener, setOpener] = useState(true)
+    const [opener, setOpener] = useState(false)
+    useEffect(() => {
+        setWidth(window.innerWidth);
+        setOpener(() =>  {
+            if (width > 500) {
+            return true
+            } else {
+            return false
+            }
+    })
+    }, [])
+
+
+console.log(width)
+  
+    
+   
     
     const navLongBarStyle = {
         display: opener ? "block" : "none"
@@ -30,27 +46,30 @@ export default function Header() {
                 </button>
             </div> 
             <ul style={navLongBarStyle} id="linkContainer" className={styles.navLinkContainer}>
-                <li className={styles.li}>
-                    <Link className={styles.li} href="/">
+                <div  className={styles.navLinksContainer}>
+                <li>
+                    <Link href="/">
                         <a className={styles.link}>00 Home</a>
                     </Link>
                 </li>
-                <li className={styles.li}>
-                    <Link className={styles.li}  href="/Destination">
+                <li>
+                    <Link  href="/Destination">
                         <a className={styles.link}>01 Destination</a>
                     </Link>
                 </li>
-                <li className={styles.li}>
-                    <Link className={styles.li}  href="/Crew">
+                <li>
+                    <Link href="/Crew">
                         <a className={styles.link}>02 Crew</a>
                     </Link>
                 </li>
-                <li className={styles.li}>
-                    <Link className={styles.li}  href="/Technology">
+                <li>
+                    <Link href="/Technology">
                         <a className={styles.link}>03 Technology</a>
                     </Link>
                 </li>
+                </div>
             </ul>
+            
         </nav>
     )
 }

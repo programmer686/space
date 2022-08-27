@@ -73,7 +73,7 @@
   letter-spacing: 2px;
   font-size: 2rem;
   border: 1px solid pink;
-  margin-right: 10vh;
+  margin-right: 30vh;
   margin-bottom: 20px;
 }
 
@@ -81,18 +81,24 @@
   
   .bodyContainer {
     margin-bottom: 0;
+    align-items: center;
   }
 
   .textContainer {
     width: 50vw;
     height: 80vh;
     line-height: normal;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     padding: 0;
   }
 
   .textHeader{
-    font-size: 1em;
+    font-size: 1.5em;
     margin: 0;
+    width: 70%;
   } 
   
   .textLogo {

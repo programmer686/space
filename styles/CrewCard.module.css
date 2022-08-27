@@ -81,8 +81,8 @@
 @media (max-width: 1500px) {
 
     .container {
-        justify-content: center;
-        align-items: center;
+        justify-content: space-between;
+        align-items: space-evenly;
     }
 
     .infoCard {
@@ -114,15 +114,13 @@
         flex-direction: column;
         height: 100vh;
     }
-    
-    
 
     .imageConatiner {
         order: 1;
-        width: 30vh;
+        max-width: 30vh;
         margin-right: 0;
         margin-bottom: 5%;
-        z-index: inherit;
+        z-index: 1;
     }
 
     .infoCard  {
@@ -148,5 +146,8 @@
 
     .bio {
         margin-bottom: 15px;
+        line-height: normal;
+        max-width: 95%;
     }
 }
+
