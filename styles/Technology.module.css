@@ -17,5 +17,7 @@
         background-image: cover;
         padding-top: 15%;
         padding-bottom: 10%;
+        border: 1px solid red;
+        margin-bottom: 0;
     }
 }

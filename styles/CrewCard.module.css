@@ -81,8 +81,8 @@
 @media (max-width: 1500px) {
 
     .container {
-        justify-content: space-between;
-        align-items: space-evenly;
+        justify-content: center;
+        align-items: center;
     }
 
     .infoCard {

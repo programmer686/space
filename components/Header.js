@@ -7,19 +7,12 @@ import styles from "../styles/Header.module.css";
 export default function Header() {
     const [width, setWidth] = useState(0)
     const [opener, setOpener] = useState(false)
+    const screenSize = width >= 500
     useEffect(() => {
-        setWidth(window.innerWidth);
-        setOpener(() =>  {
-            if (width > 500) {
-            return true
-            } else {
-            return false
-            }
-    })
-    }, [])
+        setWidth( window.innerWidth);
+         screenSize ? setOpener(true): setOpener(false)
+    }, [width])
 
-
-console.log(width)
   
     
    
