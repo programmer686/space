@@ -9,3 +9,13 @@
     align-items: flex-end;
     margin-bottom: 24vh;
 }
+    
+@media (max-width: 500px) {
+    .body {
+        background-image: url("../public/assets/technology/background-technology-mobile.jpg");
+        height: 100vh;
+        background-image: cover;
+        padding-top: 15%;
+        padding-bottom: 10%;
+    }
+}

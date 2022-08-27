@@ -8,6 +8,7 @@
     align-items: center;
     margin-bottom: 100px;
     width: 100vw;
+    height: 100vh;
 }
 
 .btnAndInfoContainer {
@@ -82,4 +83,48 @@
 .image {
     margin: 10px 0px;
     width: 30%;
+}
+
+@media (max-width: 500px) {
+    .techContainer  {
+        flex-direction: column;
+        height: fit-content;
+        padding:0;
+        margin: 0;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .imageConatiner {
+        order: 1;
+        width: 40vh;
+        margin-top: 5%;
+    }
+
+    .btnAndInfoContainer {
+        flex-direction: column;
+        max-width: 90%;
+        margin-left: 0;
+    }
+
+    .btnContainer {
+        flex-direction: row;
+        margin-bottom: 15px;
+        order: 2;
+    }
+
+    .btns {
+        width: 50px;
+        height: 50px;
+        margin: 0 10px;
+        font-size: 1.5rem;
+    }
+
+    .infoBody {
+        width: 100%;
+        height: fit-content;
+        text-align: center;
+        margin-left: 0;
+        margin-bottom: 30px;
+    }
 }

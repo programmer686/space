@@ -11,3 +11,10 @@
     padding-top: 5vh;
 }
 
+@media (max-width: 500px) {
+    .body {
+        background-image: url("../public/assets/crew/background-crew-mobile.jpg");
+        height: fit-content;
+        padding-top: 15%;
+    }
+}
