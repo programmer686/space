@@ -172,16 +172,20 @@
     margin-bottom: 0;
   }
 
-  .textHeader, .texInfo{
+  .textHeader{
     font-size: 1rem;
     line-height: normal;
+    width: 100vh;
   }
 
   .textInfo {
-    width: 80vw;
+    width: 90vw;
   }
 
   .btn {
-    margin: 40% 0;
+    margin-top: 20vh;
+    margin-right: 0;
+    width: 175px;
+    height: 175px;
   }
 }
