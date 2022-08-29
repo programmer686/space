@@ -5,9 +5,7 @@ function CrewCard(props) {
   const handleSwitch = (name) => {
     if (name === "COMMANDER") {
       props.state(0);
-      console.log(btnStyled, btnStyle)
     } else if (name === "MISSION") {
-      console.log(btnStyle)
       props.state(1);
     } else if (name === "PILOT") {
       props.state(2);

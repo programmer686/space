@@ -24,7 +24,6 @@
   justify-content: space-between;
   align-items: flex-end;
   width: 100vw;
-  margin-bottom: 10vw;
 }
 
 .textContainer {
@@ -75,30 +74,32 @@
   border: 1px solid pink;
   margin-right: 30vh;
   margin-bottom: 20px;
+  margin-bottom: 0;
 }
 
 @media (max-width: 1500px) {
   
   .bodyContainer {
     margin-bottom: 0;
-    align-items: center;
+    align-items: flex-end;
+    padding-bottom: 5%;
   }
 
   .textContainer {
-    width: 50vw;
-    height: 80vh;
+    width: fit-content;
+    height: fit-content;
     line-height: normal;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     padding: 0;
   }
 
   .textHeader{
     font-size: 1.5em;
     margin: 0;
-    width: 70%;
+    width: 100%;
   } 
   
   .textLogo {
@@ -115,7 +116,6 @@
     font-size: 20px;
     margin: 0;
     margin-right: 10vh;
-    margin-bottom: 15vh;
 }
   
 

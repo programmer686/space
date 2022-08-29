@@ -15,6 +15,7 @@
 
 .infoCard {
     width: 70vh;
+    max-height: max-content;
     padding: 0px 0px;
     margin-bottom: 15vh;
     margin-left: 10vh;
