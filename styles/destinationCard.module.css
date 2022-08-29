@@ -77,7 +77,8 @@
 
 .btnContainer {
     display: flex;
-    justify-content: flex-start;
+    justify-content: space-between;
+    width: 50vh;
     
 }
 
@@ -86,7 +87,7 @@
     font-family:  Courier, monospace;
     background: none;
     border: none;
-    margin: 5px 15px;
+    margin: 5px 0px;
     font-size: 120%;
 }
 

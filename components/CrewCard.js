@@ -1,18 +1,25 @@
-import React from "react";
+import React, { useState } from "react";
 import styles from "../styles/CrewCard.module.css";
 import Image from "next/image";
 function CrewCard(props) {
-  function handleSwitch(name) {
+  const handleSwitch = (name) => {
     if (name === "COMMANDER") {
       props.state(0);
+      console.log(btnStyled, btnStyle)
     } else if (name === "MISSION") {
+      console.log(btnStyle)
       props.state(1);
     } else if (name === "PILOT") {
       props.state(2);
     } else if (name === "ENGINEER") {
       props.state(3);
     }
+    
   }
+
+  
+
+ 
   return (
     <div className={styles.container}>
       <div className={styles.infoCard}>

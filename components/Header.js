@@ -19,6 +19,13 @@ export default function Header() {
   const handleNavBar = () => {
     setOpener((prev) => !prev);
   };
+
+  const handleCloseNav = () => {
+    if (width < 500) {
+      setOpener((prev) => !prev)
+      console.log("handleCloseNav is working")
+    }
+  }
   return (
     <nav className={styles.navbar}>
       <div className={styles.logoAndBtn}>
@@ -40,22 +47,22 @@ export default function Header() {
         <div className={styles.navLinksContainer}>
           <li>
             <Link href="/">
-              <a className={styles.link}>00 Home</a>
+              <a onClick={handleCloseNav} className={styles.link}>00 Home</a>
             </Link>
           </li>
           <li>
             <Link href="/Destination">
-              <a className={styles.link}>01 Destination</a>
+              <a onClick={handleCloseNav} className={styles.link}>01 Destination</a>
             </Link>
           </li>
           <li>
             <Link href="/Crew">
-              <a className={styles.link}>02 Crew</a>
+              <a onClick={handleCloseNav} className={styles.link}>02 Crew</a>
             </Link>
           </li>
           <li>
             <Link href="/Technology">
-              <a className={styles.link}>03 Technology</a>
+              <a onClick={handleCloseNav} className={styles.link}>03 Technology</a>
             </Link>
           </li>
         </div>

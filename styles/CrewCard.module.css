@@ -13,8 +13,6 @@
     align-items: flex-end;
 }
 
-
-
 .infoCard {
     width: 70vh;
     padding: 0px 0px;
@@ -81,7 +79,7 @@
 @media (max-width: 1500px) {
 
     .container {
-        justify-content: center;
+        justify-content: space-between;
         align-items: center;
     }
 
@@ -105,6 +103,7 @@
 
     .bio {
         font-size: 1em;
+        max-width: 70vh;
     }
 }
 
